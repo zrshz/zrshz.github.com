@@ -1,74 +1,243 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Zrshz.github.com : " />
+<head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8" />
+	<title>TMYAM WEBSITE</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+	<meta name="author" content="" />
 
-    <title>Zrshz.github.com</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/zrshz">View on GitHub</a>
-
-          <h1 id="project_title">Zrshz.github.com</h1>
-          <h2 id="project_tagline"></h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ 你你你你你你你你你你你你你你你
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     
 
-  </body>
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="styles/skeleton.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/flexslider.css" />
+    <link rel="stylesheet" href="styles/color.css" />
+	<link rel="stylesheet" href="styles/layout.css" />
+    
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.png" />
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
+    
+    
+	<!-- Demo Switcher
+	================================================== -->
+    <link id="layoutcss" href="styles/fixed-layout.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+
+<body>
+<div id="bodychild">
+	<div id="outercontainer">
+    
+        <!-- HEADER -->
+        <div id="outerheader">
+        	<div class="container">
+            <header id="top" class="twelve columns">
+            	<div id="logo"  class="three columns alpha"><!--<a href="index-2.html"><img src="images/logo.png" alt=""></a>--></div>
+                <section id="navigation" class="nine columns omega">
+                    <nav>
+                        <ul id="topnav" class="sf-menu">
+                            <li class="current"><a href="index.html">home</a></li>
+                            <li><a href="mac.html">mac</a></li>
+                            <li><a href="ios.html">ios</a></li>
+                            <li><a href="blog.html">blog</a></li>
+                            <li><a href="about.html">about</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul><!-- topnav -->
+                    </nav><!-- nav -->	
+                    <div class="clear"></div>
+                </section>
+                <div class="clear"></div>
+            </header>
+            </div>
+        </div>
+        <!-- END HEADER -->
+        
+        <!-- SLIDER -->
+        <div id="outerslider">
+        	<div class="container">
+        	<div id="slidercontainer" class="twelve columns">
+            
+            	<section id="slider">
+                    <div id="slideritems" class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <img src="images/content/slide1@2x.jpg"  width="916" alt="" />
+                                <!--<div class="flex-caption">
+                                    <a href="#" class="button">Read more</a>
+                                </div>-->
+                            </li>
+                            <li>
+                                <img src="images/content/slide1@2x.jpg"  width="916" alt="" />
+                            </li>
+                            <li>
+                                <img src="images/content/slide1@2x.jpg"  width="916" alt="" />
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                
+            </div>
+            </div>
+        </div>
+        <!-- END SLIDER -->
+        
+        <!-- MAIN CONTENT -->
+        <div id="outermain">
+        	<div class="container">
+        	<section id="maincontent" class="twelve columns">
+            	<section id="content" class="positionleft eight columns alpha">
+                    <article>
+                    	<hgroup>
+                        <h2 class="smallmargin">Welcome to my website</h2>
+                        <h4 class="customcolor">This is my website which is used to introduce softwares. I also used it as networks of practice, such as creating web pages. It's really very useful.</h4>
+                        </hgroup>
+                    </article>
+                    
+                    <div class="separator line"><div></div></div>
+                    
+                    <article>
+                    	<h2>Featured Projects</h2>
+                        <div class="four columns alpha">
+                        	<img src="images/content/pic1.jpg" alt="" class="alignnone scale-with-grid" />
+                        	<h3 class="smallmargin"> One </h3>
+                            <p>Detail</p>
+                            <p><a href="#" class="button">Read more</a></p>
+                        </div>
+                        <div class="four columns omega">
+                        	<img src="images/content/pic2.jpg" alt="" class="alignnone scale-with-grid" />
+                        	<h3 class="smallmargin">two</h3>
+                            <p>Detail</p>
+                            <p><a href="#" class="button">Read more</a></p>
+                        </div>
+                    </article>
+				</section>
+                
+                <aside id="sidebar" class="positionright four columns omega">
+                    <ul>
+                        <li class="widget-container">
+                            <h2 class="widget-title">Recent Infos</h2>
+                            <ul class="lp-widget">
+                                <li>
+                                	<img src="images/icon/flag@2x.png" width="16" alt="" class="alignleft" />
+                                    <div class="lp">
+                                        <h3><a href="#">Nullam consequat ornare orci</a></h3>
+                                        <span class="smalldate">April 25, 2012&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#">1 Comment</a></span>
+                                        <span>Pellentesque auctor vehicula sapien, et lacinia neque convallis ac. Curabitur porttitor laoreet metus...</span>
+                                    </div>
+                                </li>
+                                <li>
+                                	<img src="images/icon/flag@2x.png" width="16" alt="" class="alignleft" />
+                                    <div class="lp">
+                                        <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
+                                        <span class="smalldate">April 23, 2012&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#">1 Comment</a></span>
+                                        <span>Pellentesque auctor vehicula sapien, et lacinia neque convallis ac. Curabitur porttitor laoreet metus...</span>
+                                    </div>
+                                </li>
+                                <li>
+                                	<img src="images/icon/flag@2x.png" width="16" alt="" class="alignleft" />
+                                    <div class="lp">
+                                        <h3><a href="#">Aliquam congue nibh sit</a></h3>
+                                        <span class="smalldate">April 20, 2012&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#">1 Comment</a></span>
+                                        <span>Pellentesque auctor vehicula sapien, et lacinia neque convallis ac. Curabitur porttitor laoreet metus...</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                 	</ul>
+				</aside>	
+                <div class="clear"></div><!-- clear float --> 
+            </section>
+            </div>
+        </div>
+        <!-- END MAIN CONTENT -->
+        
+        <!-- AFTER CONTENT -->
+        <div id="outeraftercontent">
+            <div class="container">
+            <div id="aftercontent" class="twelve columns">
+                <section id="afterthecontent">
+                    <ul class="sn">
+                        <li><a title="Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://zrshz.github.com"><span style="background:url(images/social/facebook@2x.png);background-size: 32px 64px;" class="icon-img"></span></a></li>
+                        <li><a title="Twitter" href="https://twitter.com/intent/tweet?text=tmyam&nbsp;website&url=http://zrshz.github.com"><span style="background:url(images/social/twitter@2x.png);background-size: 32px 64px;" class="icon-img"></span></a></li>
+                        <li><a title="Email" href="mailto:tmyam@mail.com"><span style="background:url(images/social/email@2x.png);background-size: 32px 64px;" class="icon-img"></span></a></li>
+                        <li><a title="Sina Weibo" href="http://service.weibo.com/share/share.php?url=http://zrshz.github.com&title=tmyam&nbsp;website"><span style="background:url(images/social/sina_weibo@2x.png);background-size: 32px 64px;" class="icon-img"></span></a></li>
+                        <li><a title="Tencent Weibo" href="http://v.t.qq.com/share/share.php?title=tmyam&nbsp;website&url=http://zrshz.github.com"><span style="background:url(images/social/tencent_weibo@2x.png);background-size: 32px 64px;" class="icon-img"></span></a></li>
+                    </ul>
+                    <address class="addr">Have a good life every day!</address>
+                </section>
+            </div>
+            </div>
+        </div>
+        <!-- END AFTER CONTENT -->
+        
+        <!-- FOOTER -->
+        <div id="outerfooter">
+        	<div class="container">
+        	<div id="footercontainer" class="twelve columns">
+            	<footer id="footer">&copy; Copyright &copy; 2014.tmyam All rights reserved.</footer>
+            </div>
+            </div>
+        </div>
+        <!-- END FOOTER -->
+        
+	</div><!-- end bodychild -->
+</div><!-- end outercontainer -->
+
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+
+<!-- jQuery Superfish -->
+<script type="text/javascript" src="js/hoverIntent.js"></script> 
+<script type="text/javascript" src="js/superfish.js"></script> 
+<script type="text/javascript" src="js/supersubs.js"></script>
+
+<!-- jQuery Flexslider -->
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+
+<!-- jQuery Dropdown Mobile -->
+<script type="text/javascript" src="js/tinynav.min.js"></script>
+
+<!-- Custom Script -->
+<script type="text/javascript" src="js/custom.js"></script>
+
+<script type="text/javascript">
+jQuery(window).load(function() {
+    jQuery('.flexslider').flexslider({
+          animation: "slide",              //String: Select your animation type, "fade" or "slide"
+		  slideDirection: "vertical",   //String: Select the sliding direction, "horizontal" or "vertical"
+		  directionNav: false, //Boolean: Create navigation for previous/next navigation? (true/false)
+		  controlNav: true  //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+        });
+});
+</script>	
+
+
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
 </html>
