@@ -252,12 +252,12 @@ span.error{color:red;text-align:left; font-size:11px; padding-bottom:15px; displ
 #contactform input.text-input{
 	margin-bottom:15px;
 	vertical-align:middle;
-	width:70%;
+	width:60%;
 	float:left;
 	font-style:italic;
 	padding:8px
 }
-#contactform textarea{ width:95%; float:left; font-style:italic} 
+#contactform textarea{ width:85%; float:left; font-style:italic} 
 #message{ margin-left:0px; font-weight:bold; color:#ff0000}
 #message h2	{}
 #message p{margin:6px 0px; }
