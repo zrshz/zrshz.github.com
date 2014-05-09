@@ -30,8 +30,8 @@ body {color:#888;}
 #outerfooter{ background:#282e38;}
 
 /* Link color */
-a, a:visited, .colortext, .colortext a, .colortext a:visited{color:#dc3c00}
-a:hover, .colortext:hover, .colortext:hover{color:#f77a4b}
+/*a, a:visited, .colortext, .colortext a, .colortext a:visited{color:#dc3c00}
+a:hover, .colortext:hover, .colortext:hover{color:#f77a4b}*/
 
 /* Text color */
 .customcolor{color:#757575;}
