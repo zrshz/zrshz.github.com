@@ -170,25 +170,11 @@ tr.odd td {background: #F2F7FC;}
 #footer{color:#bebebe;}
 #footer a, #footer a:visited{color:#bebebe;}
 
-
 /* --- disqus css -- */
 #disqus_thread {
-color: #ffffff;
-border-style: 0px solid;
-border-color: #cccccc;
-padding: 5px;
+	color: black;
 }
-
-#dsq-content #dsq-comments .dsq-comment-body {
-color: #fff;
-background-color: #000000;
-} 
-
-.dsq-reaction-body {
-color: #fff;
+#disqus_thread a {
+	color: #3bbeec;
 }
-
-.dsq-reaction-retweets {
-color: #ccc;
-}
-/*--- end disqus css --*/
+/* --- end disqus css -- */
