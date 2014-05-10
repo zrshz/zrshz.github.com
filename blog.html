@@ -9,7 +9,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8" />
-	<title>TMYAM ABOUT</title>
+	<title>TMYAM BLOG</title>
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
@@ -61,8 +61,8 @@
                             <li><a href="index.html">home</a></li>
                             <li><a href="mac.html">mac</a></li>
                             <li><a href="ios.html">ios</a></li>
-                            <li><a href="blog.html">blog</a></li>
-                            <li class="current"><a href="about.html">about</a></li>
+                            <li class="current"><a href="blog.html">blog</a></li>
+                            <li><a href="about.html">about</a></li>
                             <li><a href="contact.html">contact</a></li>
                         </ul><!-- topnav -->
                     </nav><!-- nav -->	
@@ -75,41 +75,52 @@
         <!-- END HEADER -->
         
         <!-- AFTER HEADER -->
-        <div id="outerafterheader">
+        <div id="outerafterheaderwhite">
+        <div id="containerwhite">
             <div class="container">
                 <div id="afterheader" class="twelve columns">
                     <section id="aftertheheader">
                     	<hgroup>
-                            <h1 class="pagetitle">About</h1>
-                            <h3 class="pagedesc">My development related information</h3>
+                            <h1 class="pagetitle">Blog</h1>
+                            <h3 class="pagedesc">My coding experience</h3>
                         </hgroup>
                     </section>
                 </div>
             </div>
+             </div>
         </div>
         <!-- END AFTER HEADER -->
         
-        <!-- MAIN CONTENT -->
-        <div id="outermain">
-        	<div class="container">
-        	<section id="maincontent" class="twelve columns">
-                    
-					<article>
-                    <p><img src="images/content/about.jpg" alt="" class="scale-with-grid" /></p>
-                    
-                    <h3>Purposeful learning, production is happy!</h3>
-                    <p><h5 class="customcolor">I used to be a medical student at the University.  But I want to do something special, so I entered the computer industry difficult.However, different from others, I started to do is phone programming, and later doing computer programming. This web site is to show my practice, software information.</h5></p>
-                    
-                    <p><h5 class="customcolor">From symbian to ios, then mac os, I walked all the way, constantly enrich themselves, just to create enthusiasm.</h5></p>
-					</article>
-                    
-                    <div class="separator line"><div></div></div>
-
-                <div class="clear"></div><!-- clear float --> 
-            </section>
-            </div>
-        </div>
-        <!-- END MAIN CONTENT -->
+        <!-- 插入 blog -->
+		<script language="javascript" type="text/javascript"> 
+		function dyniframesize(down) { 
+		var pTar = null; 
+		if (document.getElementById){ 
+		pTar = document.getElementById(down); 
+		} 
+		else{ 
+		eval('pTar = ' + down + ';'); 
+		} 
+		if (pTar && !window.opera){ 
+		//begin resizing iframe 
+		pTar.style.display="block" 
+		if (pTar.contentDocument && pTar.contentDocument.body.offsetHeight){ 
+		//ns6 syntax 
+		pTar.height = pTar.contentDocument.body.offsetHeight -56; // +20
+		pTar.width = pTar.contentDocument.body.scrollWidth; // +20
+		} 
+		else if (pTar.Document && pTar.Document.body.scrollHeight){ 
+		//ie5+ syntax 
+		pTar.height = pTar.Document.body.scrollHeight; 
+		pTar.width = pTar.Document.body.scrollWidth; 
+		} 
+		}
+		} 
+		</script> 
+		<iframe style="margin:-164px 0px 0px 0px;" src ="http://tmyam.github.com" frameborder="0" scrolling="no" id="ifm" name="ifm" onload="javascript:dyniframesize('ifm');" width="100%"> 
+		</iframe>
+		<!-- end 插入 blog -->
+        
         
         <!-- AFTER CONTENT -->
         <div id="outeraftercontent">

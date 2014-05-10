@@ -28,6 +28,9 @@ body {color:#888;}
 
 #outeraftercontent{ background:#f0f0f0; border-top:1px solid #c4c4c4;}
 #outerfooter{ background:#282e38;}
+#outerafterheaderwhite{
+	background: #fff;
+}
 
 /* Link color */
 a, a:visited, .colortext, .colortext a, .colortext a:visited{color:#dc3c00}
