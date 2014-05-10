@@ -92,7 +92,7 @@
         <!-- END AFTER HEADER -->
         
         <!-- 插入 blog -->
-		<script type="text/javascript"> 
+		<!--<script type="text/javascript"> 
 		function dyniframesize(down) { 
 		var pTar = null; 
 		if (document.getElementById){ 
@@ -118,8 +118,33 @@
 		} 
 		</script>
 		<iframe style="margin:-164px 0px 0px 0px;" src ="http://tmyam.github.io" frameborder="0" scrolling="yes" id="ifm" name="ifm" onload="javascript:dyniframesize('ifm');" width="100%"> 
-		</iframe>
+		</iframe>-->
 		<!-- end 插入 blog  -->
+        
+        
+        <script type="text/javascript"> 
+        function SetWinHeight(obj) 
+        { 
+        var win=obj; 
+        if (document.getElementById) 
+        { 
+        if (win && !window.opera) 
+        { 
+        if (win.contentDocument && win.contentDocument.body.offsetHeight) 
+        win.height = win.contentDocument.body.offsetHeight; 
+        else if(win.Document && win.Document.body.scrollHeight) 
+        win.height = win.Document.body.scrollHeight; 
+        } 
+        } 
+        } 
+        </script>
+        <iframe style="margin:-164px 0px 0px 0px;" src ="http://tmyam.github.io" frameborder="0" scrolling="no" id="ifm" name="ifm" onload="Javascript:SetWinHeight(this)" width="100%"> 
+        </iframe>
+        
+        
+        
+        
+        
         
         
         <!-- AFTER CONTENT -->
