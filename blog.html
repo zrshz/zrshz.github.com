@@ -129,12 +129,21 @@
         alert('loaded -1');
         if (document.getElementById) 
         { 
+        alert('loaded -2');
         if (win && !window.opera) 
         { 
+        alert('loaded -3');
         if (win.contentDocument && win.contentDocument.body.offsetHeight) 
+        {
+        
         win.height = win.contentDocument.body.offsetHeight; 
+        alert('loaded -4 ' + win.height);
+        }
         else if(win.Document && win.Document.body.scrollHeight) 
+        {
         win.height = win.Document.body.scrollHeight; 
+        alert('loaded -5 ' + win.height);
+        }
         } 
         } 
         } 
