@@ -8,7 +8,7 @@
 function  pseth() { 
     var iObj = parent.parent.document.getElementById('frame_content');
     iObjH = parent.parent.frames["frame_content"].frames["iframeC"].location.hash; 
-    iObj.style.height = iObjH.split("#")[1]+"px"; 
+    iObj.style.height = iObjH.split("#")[1]+"px" -56; //去除底部声明 
 }
 pseth();
 </script>
