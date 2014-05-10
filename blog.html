@@ -126,6 +126,7 @@
         function SetWinHeight(obj) 
         { 
         var win=obj; 
+        alert('loaded -1');
         if (document.getElementById) 
         { 
         if (win && !window.opera) 
@@ -138,18 +139,18 @@
         } 
         } 
         </script>
-        <!--<iframe style="margin:-164px 0px 0px 0px;" src ="http://tmyam.github.io" frameborder="0" scrolling="no" id="ifm" name="ifm" onload="Javascript:SetWinHeight(this)" width="100%"> 
-        </iframe>-->
+        <iframe style="margin:-164px 0px 0px 0px;" src ="http://tmyam.github.io" frameborder="0" scrolling="no" id="ifm" name="ifm" onload="Javascript:SetWinHeight(this)" width="100%"> 
+        </iframe>
         
         <div id="customframe"></div>
         
-        <script type="text/javascript"> 
+        <!--<script type="text/javascript"> 
         function includeFrame(){ 
         	var div = document.createElement("div"); 
         	div.innerHTML = "<iframe style=\"margin:-164px 0px 0px 0px;\" src =\"http://tmyam.github.io\" frameborder=\"0\" scrolling=\"no\" id=\"ifm\" name=\"ifm\" onload=\"Javascript:SetWinHeight(this)\" width=\"100%\">"; 
         	document.getElementById('customframe').appendChild(div); 
         };includeFrame(); 
-        </script>
+        </script>-->
         
         
         
