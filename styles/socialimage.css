@@ -1,7 +1,10 @@
 
 /* 非retina */
 .social-facebook{background: url('../images/social/facebook.png');background-size: 32px 64px;}
-
+.social-twitter{background: url('../images/social/twitter.png');background-size: 32px 64px;}
+.social-email{background: url('../images/social/email.png');background-size: 32px 64px;}
+.social-sina_weibo{background: url('../images/social/sina_weibo.png');background-size: 32px 64px;}
+.social-tencent_weibo{background: url('../images/social/tencent_weibo.png');background-size: 32px 64px;}
 
 
 /* retina  */
@@ -11,11 +14,9 @@
     only screen and (min-device-pixel-ratio: 1.5) {
     
         .social-facebook{background: url('../images/social/facebook@2x.png');background-size: 32px 64px;}
-        
-        
-        
-        
-        
-        
-        
+        .social-twitter{background: url('../images/social/twitter@2x.png');background-size: 32px 64px;}
+        .social-email{background: url('../images/social/email@2x.png');background-size: 32px 64px;}
+        .social-sina_weibo{background: url('../images/social/sina_weibo@2x.png');background-size: 32px 64px;}
+        .social-tencent_weibo{background: url('../images/social/tencent_weibo@2x.png');background-size: 32px 64px;}
+            
 }
