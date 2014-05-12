@@ -766,15 +766,24 @@ tr.odd td {}
 
 .sn{list-style-type:none; margin:0 0 0 0; height:32px; padding:0; float:right} 
 .sn li{list-style-type:none; margin:0; padding:0 5px 0 0; display:inline; background:transparent; border:0px!important;} 
-.sn span{height:64px; width:64px; display:inline; display:inline-block}
-.icon-img{
-background-position:0 0;
-zoom:0.5;
-}
-.icon-img:hover{background-position:0 -64px !important;}
+.sn span{height:32px; width:32px; display:inline; display:inline-block}
+.icon-img{background-position:0 0;}
+.icon-img:hover{background-position:0 -32px !important;}
+
+
+/*@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
+        .icon {
+            background: url('images/icons@2x.png') no-repeat 0 0;
+            background-size: 160px 32px;
+        }
+}*/
+
+
 
 .addr{font-family: 'Cuprum', sans-serif; font-size:16px;}
-
 
 /*============================================ FOOTER  =================================================*/
 #footer{padding:10px 0px 11px 0;}
