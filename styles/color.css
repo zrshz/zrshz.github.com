@@ -33,8 +33,8 @@ body {color:#888;}
 }
 
 /* Link color */
-a, a:visited, .colortext, .colortext a, .colortext a:visited{color:#dc3c00}
-a:hover, .colortext:hover, .colortext:hover{color:#f77a4b}
+a, a:visited, .colortext, .colortext a, .colortext a:visited{color:#0096e8}
+a:hover, .colortext:hover, .colortext:hover{color:#3bbeec}
 
 /* Text color */
 .customcolor{color:#757575;}
