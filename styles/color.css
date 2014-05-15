@@ -104,12 +104,12 @@ hr {
 .postdate{color:#4e5b70;}
 
 .pagenavi a, .pagenavi a:visited{color:#535e70;}
-.pagenavi a:hover{color:#dc3c00}
+.pagenavi a:hover{color:#0096e8}
 
 /* Portfolio */
 .ts-display-pf-text h2 a, .ts-display-pf-text h2 a:visited{color:#535e70;}
 .ts-display-pf-text h2 a:hover{color:#0096e8}
-#ts-display-portfolio  li{background:#f9f9f9; border-bottom:solid 1px #e2e2e2}
+#ts-display-portfolio  li{background:#f4f4f4; border-bottom:solid 1px #999}
 
 /* Sidebar */
 #sidebar li li a{ color:#888; }
