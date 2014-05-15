@@ -47,10 +47,10 @@
 	#ts-display-pf-col-3  .ts-display-pf-img a .rollover{width:229px; height:100%}
 	
 	/* Portfolio 4 Column */
-	#ts-display-pf-col-4 li{width:164.5px;}
+/*	#ts-display-pf-col-4 li{width:164.5px;}
 	#ts-display-pf-col-4 .ts-display-pf-img{width:164.5px; height:100%}
 	#ts-display-pf-col-4 .ts-display-pf-img a.image{width:164.5px; height:100%}
-	#ts-display-pf-col-4  .ts-display-pf-img a .rollover{width:164.5px; height:100%}
+	#ts-display-pf-col-4  .ts-display-pf-img a .rollover{width:164.5px; height:100%}*/
 	
 }
 
@@ -137,7 +137,7 @@
 	
 	
 	/* Portfolio 4 Column */
-	#ts-display-pf-col-4 li{width:300px;}
+/*	#ts-display-pf-col-4 li{width:300px;}
 	#ts-display-pf-col-4 .ts-display-pf-img{
 		width:300px;
 		height:100%
@@ -151,7 +151,7 @@
 	#ts-display-pf-col-4  .ts-display-pf-img a .rollover{
 		width:300px;
 		height:100%
-	}
+	}*/
 	
 	/* Footer */
 	.sn{float:none;}
@@ -215,7 +215,7 @@
 	}
 	
 	/* Portfolio 4 Column */
-	#ts-display-pf-col-4 li{width:420px;}
+/*	#ts-display-pf-col-4 li{width:420px;}
 	#ts-display-pf-col-4 .ts-display-pf-img{
 		width:420px;
 		height:100%
@@ -229,7 +229,7 @@
 	#ts-display-pf-col-4  .ts-display-pf-img a .rollover{
 		width:420px;
 		height:100%
-	}
+	}*/
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */

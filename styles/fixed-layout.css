@@ -53,10 +53,11 @@ body{
 	#ts-display-pf-col-3  .ts-display-pf-img a .rollover{width:229px; height:100%}
 	
 	/* Portfolio 4 Column */
-	#ts-display-pf-col-4 li{width:164.5px;}
+/*	#ts-display-pf-col-4 li{width:160px;}
 	#ts-display-pf-col-4 .ts-display-pf-img{width:164.5px; height:100%}
 	#ts-display-pf-col-4 .ts-display-pf-img a.image{width:164.5px; height:100%}
 	#ts-display-pf-col-4  .ts-display-pf-img a .rollover{width:164.5px; height:100%}
+	#ts-display-pf-col-4 .ts-display-pf-text{margin-left: 10px;}*/
 	
 	#style-switcher{display:none;}
 	
@@ -226,7 +227,7 @@ body{
 	}
 	
 	/* Portfolio 4 Column */
-	#ts-display-pf-col-4 li{width:420px;}
+/*	#ts-display-pf-col-4 li{width:420px;}
 	#ts-display-pf-col-4 .ts-display-pf-img{
 		width:420px;
 		height:100%
@@ -240,7 +241,7 @@ body{
 	#ts-display-pf-col-4  .ts-display-pf-img a .rollover{
 		width:420px;
 		height:100%
-	}
+	}*/
 	
 	
 }

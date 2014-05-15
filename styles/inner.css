@@ -89,8 +89,8 @@ USE THIS STYLE SHEET FOR INNER PAGE
 .ts-display-clear{clear:both; height:1px !important; line-height:1px !important; float:none!important}
 
 .ts-display-pf-text{}
-.ts-display-pf-text p{margin-bottom:0;}
-.ts-display-pf-text h2{font-size:18px; margin-bottom:10px}
+.ts-display-pf-text p{margin-bottom:5px;}
+.ts-display-pf-text h2{font-size:16px; margin-bottom:0px}
 
 .ts-display-pf-img a .rollover{
 	background:url(../images/hover-zoom.png);
@@ -211,33 +211,38 @@ USE THIS STYLE SHEET FOR INNER PAGE
 
 /*======= Portfolio 4 Column =======*/
 #ts-display-pf-col-4{list-style-type:none; padding:0; margin:0;}
-#ts-display-pf-col-4 li{list-style-type:none; padding:0; margin:0 30px 50px 0; width:212px;  float:left;}
+#ts-display-pf-col-4 li{list-style-type:none; padding:0; margin:0 12px 30px 0; width:220px;  float:left;}
 #ts-display-pf-col-4 li.nomargin{margin-right:0;}
 #ts-display-pf-col-4 h2{}
 
 #ts-display-pf-col-4 .ts-display-pf-img{
-	width:212px;
-	height:145px;
+	width:84px;
+	height:64px;
+	padding:20px 0px;
+	float: left;
+	text-align:center;
 }
 
-#ts-display-pf-col-4 .ts-display-pf-img img{display:block;}
+#ts-display-pf-col-4 .ts-display-pf-img img{display:inline;}
 
 #ts-display-pf-col-4 .ts-display-pf-img a.image{
-	width:212px;
+	width:64px;
 	height:100%;
-	display:block;
+	/*display:block;*/
 	position:relative;
 
 }
 
 #ts-display-pf-col-4  .ts-display-pf-img a .rollover{
-	width:212px;
+	width:64px;
 	height:100%;
 	cursor:pointer;
 }
 
 #ts-display-pf-col-4 .ts-display-pf-text{
-	padding:20px 25px;
+	margin-left: 84px;
+	width: 136px;
+	padding:20px 0px;
 }
 
 
