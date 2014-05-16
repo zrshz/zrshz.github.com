@@ -53,8 +53,10 @@ function add_duoshuo(url)
 
 
 /** 根据不同的浏览器语言，加载不同的评论控件 */
-function language_comment(url)
+function language_comment()
 {
+	var url = window.location.href;
+
 	var type=navigator.appName;
 	if (type=="Netscape")
 	{
@@ -79,5 +81,5 @@ function language_comment(url)
    		add_disqus(url);
 	}
 }
-
+language_comment();
 
