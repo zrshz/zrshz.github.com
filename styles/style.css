@@ -240,7 +240,7 @@ code {
 }
 #outercontainer{width:100%;}
 
-#outerheader, #outerafterheader, #outerslider, #outerbeforecontent, #outermain,  #outeraftercontent, #outerfooter,#outerafterheaderwhite{width:100%; margin:0 auto}
+#outerheader, #outerafterheader, #outerslider, #outerbeforecontent, #outermain,  #outeraftercontent, #outerfooter,#outerafterheaderwhite,#inheader,#maininfo{width:100%; margin:0 auto}
 
 /* HEADER */
 #outerheader{
@@ -270,6 +270,13 @@ code {
 	top:40px;
 	position: relative;
 }
+
+#inheader{
+	margin-top: -40px;
+	position: relative;
+}
+
+
 
 /* CONTENT */
 #outermain{padding:50px 0 50px 0;}
@@ -441,6 +448,32 @@ ul.sf-menu li li li.sfHover ul {
 }
 
 .sf-menu > li li:first-child:before{ border:0;}
+
+
+#apptopnav{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	overflow:visible;
+	position:relative;
+	float:right;
+	font-family:sans-serif;
+}
+.tm-menu a{
+	text-decoration:none!important;
+	display:block;
+	position:relative;
+	padding:20px 20px !important;
+	font-size:16px;
+}
+.tm-menu > li {
+    padding-left: 2px;
+    position: relative;
+    z-index: 10;
+    float: left;
+}
+
+
 
 /* dropdown mobile */
 .tinynav { display: none }

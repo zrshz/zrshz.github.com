@@ -1,0 +1,170 @@
+
+#maininfo a:link,
+#maininfo a:visited {
+	color: #f27c61;
+}
+#maininfo a:hover {
+	color: #dc3c00;
+}
+
+#maininfo {
+	color: hsl(0,0%,33%);
+	text-align: left;
+	font-size: 16px;
+}
+
+#maininfo .container {
+	margin-left: 30px;
+}
+
+#maininfo .container > header{
+	width: 400px;
+	text-align: center;
+}
+
+#maininfo .container > header h1 {
+	font: bold 32px/1.0 'Lucida Grande', sans-serif;
+	margin: 10px 0 5px;
+}
+#maininfo .container > header p {
+	font-size: 15px;
+}
+
+.container > header p time {
+	font-size: 80%;
+	font-weight: normal;
+	color: hsla(0,0%,0%,.5);
+}
+
+main > section {
+	margin: 2em auto;
+}
+main > section::before {
+	content: '';
+	display: block;
+	width:480px;
+	/*margin: 20px auto;*/
+	border-bottom: 1px solid hsla(0,0%,0%,.1);
+}
+main h2 {
+	font-weight: bold;
+	font-size: 140%;
+	margin: 10px;
+}
+
+
+/* latest */
+#latest > dl {
+	margin: 10px auto;
+	font-size: 80%;
+	/*width: 15em;*/
+	margin-left: 20px;
+}
+#latest dl div > * {
+	display: inline-block;
+	white-space: nowrap;
+}
+#latest dl div dt {
+	font-size: 110%;
+	font-weight: bold;
+}
+#latest dl div dt:after {
+	content: ':';
+	font-weight: normal;
+	margin-left: 1px;
+}
+#latest dl div dd {
+	display: inline-block;
+}
+#latest dl div dd+dd:before {
+	content: ' | ';
+	opacity: 0.5;
+	font-size: 90%;
+}
+#latest dl div dd+dt {
+	margin-left: 1em;
+}
+#latest dl div dd+dt::before {
+	content: "\a";
+}
+
+
+
+/* features */
+#features {
+	/*max-width: 680px;*/
+	text-align: left;
+}
+
+#features div {
+	margin-left: 20px;
+	text-align: left;
+	font-size: 90%;
+	margin-bottom: 0.6em;
+}
+
+/* update */
+#update {
+	/*max-width: 680px;*/
+	text-align: left;
+}
+#update h3{
+	text-align: left;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+#update div {
+	margin-left: 20px;
+	text-align: left;
+	font-size: 90%;
+	margin-bottom: 0.6em;
+}
+
+
+
+
+
+
+/* beta */
+#betainfo{
+	margin-top: -70px;
+	position: absolute;
+	clip:rect(0px,400px,300px,0px);
+	width: 400px;
+}
+
+#betainfo a {
+	position:absolute;
+	top:-25px;
+	left:-110px;
+	font-weight: bold;
+	-webkit-transform: rotate(-20deg);
+	        transform: rotate(-20deg);
+	text-indent: -0.5em;
+	text-transform: uppercase;
+	background-color: hsl(90,40%,85%);
+	padding:50px 120px 10px;
+	font-size: 20px;
+	line-height: 1.1;
+	text-align: left;
+	-webkit-animation:  fadeIn backwards 0.8s 0.5s;
+	        animation:  fadeIn backwards 0.8s 0.5s;
+	       
+}
+
+#betainfo a:link,
+#betainfo a:visited {
+	color: hsl(90,45%,45%);
+}
+
+#betainfo a:hover {
+	background-color: hsl(90, 50%,75%);
+}
+@-webkit-keyframes fadeIn {
+	from { opacity:0 }
+}
+@keyframes fadeIn {
+	from { opacity:0 }
+}
+

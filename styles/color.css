@@ -78,6 +78,10 @@ h1, h2, h3, h4, h5, h6{color:#4e5b70;}
 #topnav li li a, .sf-menu li li a, .sf-menu li li a:visited {color:#4e5b70;}
 #topnav li li a:hover{color:#f27c61; background:#f0f0f0;}
 
+.tm-menu a{color:#f27c61;}
+.tm-menu a:hover{color:#dc3c00}
+.tm-menu li.current a{color: #d0d0d0;}
+
 /* Slider */
 #slidercontainer{border-bottom:1px solid #e8e8e8;}
 
