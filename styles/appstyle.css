@@ -181,6 +181,26 @@ main h2 {
 	background-color: hsl(196,75%,50%);
 }
 
+/* maintenance */
+#maintenance{
+	text-align: center;
+	height: 450px;
+}
+#maintenance div{
+	margin-top: 200px;
+	height: 128px;
+	width: 70%;
+	margin-left: 15%;
+}
+#maintenance img{
+	float: left;
+}
+#maintenance div h2{
+	float: left;
+	margin-top: 50px;
+	margin-left: 30px;
+	font-weight: bold;
+}
 
 
 /* beta */
