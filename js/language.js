@@ -26,24 +26,24 @@ function languagelink(def,en,zh,zh_Hant,ja) {
 	var china = lang.substr(0,7);
 	if (real == "en" && en)
 	{
-	    window.location.href = link + "en" + laster;
+	    window.location.href = link + "/" + "en" + laster;
 	}
 	else if (real == "ja" && ja)
 	{
-		window.location.href = link + "ja" + laster;
+		window.location.href = link + "/" + "ja" + laster;
 	}
 	// 繁体中文
 	else if ((real == "zh" && china == "zh-Hant") && zh_Hant)
 	{
-	   window.location.href = link + "zh-Hant" + laster;
+	   window.location.href = link + "/" + "zh-Hant" + laster;
 	}
 	// 简体中文
 	else if (real == "zh" && zh)
 	{
-	   window.location.href = link + "zh" + laster;
+	   window.location.href = link + "/" + "zh" + laster;
 	}
 	else
 	{
-    	window.location.href = link + def + laster;
+    	window.location.href = link + "/" + def + laster;
 	}
 }
