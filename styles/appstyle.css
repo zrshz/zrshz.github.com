@@ -184,11 +184,11 @@ main h2 {
 /* maintenance */
 #maintenance{
 	text-align: center;
-	height: 450px;
+	height: 400px;
 }
 #maintenance div{
 	margin-top: 200px;
-	height: 128px;
+	height: 100px;
 	width: 70%;
 	margin-left: 15%;
 }
@@ -197,10 +197,10 @@ main h2 {
 }
 #maintenance div p{
 	float: left;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-left: 30px;
 	font-weight: bold;
-	font-size: 120%;
+	font-size: 128%;
 }
 
 
