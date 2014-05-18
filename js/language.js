@@ -24,7 +24,6 @@ function languagelink(def,en,zh,zh_Hant,ja) {
 
 	var real = lang.substr(0,2);
 	var china = lang.substr(0,7);
-	alert(china);
 	if (real == "en" && en)
 	{
 	    window.location.href = link + "/" + "en" + laster;
@@ -34,7 +33,7 @@ function languagelink(def,en,zh,zh_Hant,ja) {
 		window.location.href = link + "/" + "ja" + laster;
 	}
 	// 繁体中文
-	else if ((real == "zh" && china == "zh-Hant") && zh_Hant)
+	else if ((real == "zh" && (china == "zh-Hant" || china == "zh-tw")) && zh_Hant)
 	{
 	   window.location.href = link + "/" + "zh-Hant" + laster;
 	}
