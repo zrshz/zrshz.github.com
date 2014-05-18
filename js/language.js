@@ -24,6 +24,7 @@ function languagelink(def,en,zh,zh_Hant,ja) {
 
 	var real = lang.substr(0,2);
 	var china = lang.substr(0,7);
+	alert(china);
 	if (real == "en" && en)
 	{
 	    window.location.href = link + "/" + "en" + laster;
