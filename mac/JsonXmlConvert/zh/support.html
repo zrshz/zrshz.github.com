@@ -9,7 +9,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8" />
-	<title>ToShowDesktop</title>
+	<title>JsonXmlConvert 反馈</title>
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
@@ -81,9 +81,9 @@
         <div id="inheader">
         	<div class="container">
                 <ul id="apptopnav" class="tm-menu">
-                    <li class="current"><a href="index.html">main</a></li>
-                    <li><a href="help.html">help</a></li>
-                    <li><a href="support.html">support</a></li>
+                    <li><a href="index.html">主页</a></li>
+                    <li><a href="help.html">帮助</a></li>
+                    <li class="current"><a href="support.html">反馈</a></li>
                 </ul>
             </div>
             <!--</div>-->
@@ -92,7 +92,7 @@
         
         <!-- beta -->
         <div id="betainfo">
-        <a href="http://itunes.apple.com/us/app/toshowdesktop/id633131629">app store<br/></a>
+        <a href="http://itunes.apple.com/cn/app/jsonxmlconvert/id644876099">app store<br/></a>
         </div>
         <!-- end beta -->
         
@@ -100,74 +100,16 @@
         <!-- app info -->
         <div id="maininfo">
         	<div class="container">
-		        <header>
-		        	<img src="../image/icon_big@2x.jpg" width="160" alt="[appIcon]"/>
-		        	<h1>ToShowDesktop</h1>
-		        	<p>version 1.2.0 <time datetime="">(2013-11-28)</time></p>
-	        		<div><a href="http://appstore.com/mac/toshowdesktop" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_macappstore-lrg.png) no-repeat;width:165px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_macappstore-lrg.svg);}"></a></div>
-		        </header>
-		        
 		        <main>		        
-		        	<section id="latest">
-			        	<h2>Information</h2>
-		        		<dl>
-		        		<div>
-		        			<dt>category</dt>
-		        			<dd>Lifestyle</dd>
-		        		</div>
-		        		<div>
-		        			<dt>size</dt>
-		        			<dd>1.9 MB</dd>
-		        		</div>
-		        		<div>
-		        			<dt>compatibility</dt>
-		        			<dd>Mac OS X 10.7 or later</dd>
-		        		</div>
-		        		<div>	
-		        			<dt>language</dt>
-		        			<dd><a href="../en/index.html" hreflang="en">English</a></dd>
-		        			<dd><a href="../zh/index.html" hreflang="zh-Hans">Simplified Chinese</a></dd>
-		        			<dd><a href="../zh-Hant/index.html" hreflang="zh-Hant">Traditional Chinese</a></dd>
-		        			<dd><a href="../ja/index.html" hreflang="ja">Japanese</a></dd>
-		        		</div>
-		        		</dl>
-		        	</section>
-		        	
-		        	
-		        	<section id="features">
-		        		<h2>Features</h2>
-		        		<p>ToShowDesktop is a simple tool to show the desktop with the following major features:</p>
-
-	        			<div>1. The easy way to quickly display desktop.</div>
-	        			<div>2. You can use Dock icon or Status Bar icon to do this.</div>
-	        			<div>3. Now it supports hide Dock icon that few application can do.</div>
-	        			<div>4. Allow automatically start at login.</div>
-	        			<div>5. Support for global shortcuts.</div>
-	        			<div>6. Supports more languages.</div>
-		        			
-		        	</section>
-		        	
-		        	
-		        	<section id="update">
-		        		<section>
-		        			<h2>Update</h2>
-		        			<h3>* 2013.11.28 - version 1.2.0 update</h3>
-		        			<div>1. More rational reconstruction software architecture.</div>
-		        			<div>2. Adding more support page.</div>
-		        			<div>3. Modify the status bar icon, about window, Preferences window, etc.</div>
-		        			<div>4. Supports more languages.</div>
-		        			
-		        			<h3>* 2013.05.22 - version 1.1.0 update</h3>
-		        			<div>1. Now it supports hide Dock icon.</div>
-		        			
-		        			<h3>* 2013.04.24 - version 1.0.0 release</h3>
-		        			<div>1. The easy way to quickly display desktop.</div>
-		        			<div>2. You can use Dock icon or Status Bar icon to do this.</div>
-		        			<div>3. Allow automatically start at login.</div>
-		        			<div>4. Support for global shortcuts.</div>
-		        		</section>
-		        	</section>
-		        	
+		        	<div id="support">
+			        	<h1>问题</h1>
+						<div class="empty"><dt>如果你有任何问题，可以回复我。</dt></div>
+					</div>
+		        		
+		        		
+					<!-- 根据不同的浏览器语言，加载不同的评论控件 -->
+					<div id="customcomment"></div>
+						<!-- end 根据不同的浏览器语言，加载不同的评论控件 -->
 		      
 		        </main>
 		        
@@ -189,7 +131,7 @@
                         <li><a title="Sina Weibo" href="http://service.weibo.com/share/share.php?url=http://zrshz.github.com&title=tmyam&nbsp;website"><span class="social-sina_weibo icon-img"></span></a></li>
                         <li><a title="Tencent Weibo" href="http://v.t.qq.com/share/share.php?title=tmyam&nbsp;website&url=http://zrshz.github.com"><span class="social-tencent_weibo icon-img"></span></a></li>
                     </ul>
-                    <address class="addr">Have a good life every day!</address>
+                    <address class="addr">If you have any question , please contact me.</address>
                 </section>
             </div>
             </div>
@@ -223,6 +165,9 @@
 
 <!-- Custom Script -->
 <script type="text/javascript" src="/js/custom.js"></script>
+
+<!-- CustomComment Script -->
+<script type="text/javascript" src="/js/customcomment.js"></script>
 
 
 <div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>

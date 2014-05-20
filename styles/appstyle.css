@@ -151,6 +151,10 @@ main h2 {
 	margin-bottom: 10px;
 }
 
+#support .empty{
+	height: 300px;
+}
+
 #maininfo a.download {
 	font-size: 16px;
 	padding: 0.5em 1em;
@@ -180,6 +184,10 @@ main h2 {
 #maininfo a.download:hover {
 	background-color: hsl(196,75%,50%);
 }
+
+
+
+
 
 /* maintenance */
 #maintenance{
