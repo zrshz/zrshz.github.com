@@ -185,8 +185,61 @@ main h2 {
 	background-color: hsl(196,75%,50%);
 }
 
+/* appstore link */
+.appstore_en{
+	display:inline-block;
+	overflow:hidden;
+	background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_macappstore-lrg.png) no-repeat;
+	width:165px;
+	height:40px;
+	@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_macappstore-lrg.svg);}
+}
+
+.appstore_zh{
+	display:inline-block;
+	overflow:hidden;
+	background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/zh_cn//images/web/linkmaker/badge_macappstore-lrg.png) no-repeat;
+	width:165px;
+	height:40px;
+	@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/zh_cn//images/web/linkmaker/badge_macappstore-lrg.svg);}
+}
+
+.appstore_ja{
+	display:inline-block;
+	overflow:hidden;
+	background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_macappstore-lrg.png) no-repeat;
+	width:165px;
+	height:40px;
+	@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_macappstore-lrg.svg);}
+}
 
 
+.appstore_short{
+	display:inline-block;
+	overflow:hidden;
+	background:url(https://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_macappstore-sm.png) no-repeat;
+	width:81px;
+	height:15px;
+	@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_macappstore-sm.svg);}
+}
+
+
+/* other link */
+#maininfo div a.other_link {
+  position: relative;
+  top: -11px;
+  left: 10px;
+  width: 140px;
+  height: 40px;
+  background: #101010;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  border-radius: 8px;
+}
 
 
 /* maintenance */
