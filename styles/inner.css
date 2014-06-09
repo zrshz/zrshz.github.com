@@ -246,6 +246,133 @@ USE THIS STYLE SHEET FOR INNER PAGE
 }
 
 
+/*======= list column =======*/
+
+section .media{
+	width: 320px;
+}
+
+section .content{
+	width: 580px;
+}
+
+section .left{
+	float: left;
+	text-align: left;
+}
+
+section .right{
+	float: right;
+	text-align: left;
+}
+
+section .content span{
+	padding: 2px 12px;
+	font-weight: normal;
+	font-size: 0.5em;
+	border-radius: 8px;
+	margin-left: 10px;
+	position: absolute;
+	line-height: 20px;
+	margin-top: 6px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	color: #7db500;
+	border: 2px solid #7db500;
+	background: none;
+	text-shadow: none;
+}
+
+
+
+/** num*/
+.list_num1::before {
+	content: '';
+	display: block;
+	/*width:80px;*/
+	margin:0 40px 0 40px;
+	border-bottom: 1px solid hsla(0,0%,0%,.3);
+}
+
+.list_num1,
+.list_num2,
+.list_num3,
+.list_num4,
+.list_num5,
+.list_num6
+{
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+section.num1,
+section.num2,
+section.num3,
+section.num4,
+section.num5,
+section.num6
+{
+	height: auto;
+	display: inline-block;
+	padding: 4em 0;
+}
+
+.num1 section.content h2,
+.num2 section.content h2,
+.num3 section.content h2,
+.num4 section.content h2,
+.num5 section.content h2,
+.num6 section.content h2
+{
+	font-weight: normal;
+	font-size: 2.4em;
+	line-height: 40px;
+	margin-bottom: 0px;
+}
+
+.num1 section.content h3,
+.num2 section.content h3,
+.num3 section.content h3,
+.num4 section.content h3,
+.num5 section.content h3,
+.num6 section.content h3,
+{
+	font-weight: normal;
+	font-size: 1.2em;
+}
+
+.num1 section.content a.button,
+.num2 section.content a.button,
+.num3 section.content a.button,
+.num4 section.content a.button,
+.num5 section.content a.button,
+.num6 section.content a.button
+{
+	padding: 10px 25px;
+	display: inline-block;
+}
+
+.num2 section.media,
+.num4 section.media,
+.num6 section.media
+{
+	text-align: right;
+}
+
+
+
+
+
 
 /* CONTACT */
 form{margin:0; padding:0;}

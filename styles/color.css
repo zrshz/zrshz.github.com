@@ -98,6 +98,72 @@ hr {
 	background-color:#eaeaea;
 }
 
+/*======= list column color =======*/
+
+/** num1 */
+.list_num1{background-color: #fff;}
+.num1 section.content h2{color: #1d1d1d;}
+.num1 section.content h3{color: #4a3535;}
+.num1 section.content p{color: #1d1d1d;}
+.num1 section.content a{color: #1c1c1c;}
+.num1 section.content a:hover{color: #3bbeec;}
+.num1 section.content a.button{background-color: #313131;color: #fefefe;}
+.num1 section.content a.button:hover{background-color: #62a545;}
+
+
+.list_num2{background-color: #2e72a4;}
+.num2 section.content h2{color: #fff;}
+.num2 section.content h3{color: #fff;}
+.num2 section.content p{color: #fff;}
+.num2 section.content a{color: #fff;}
+.num2 section.content a:hover{color: #3bbeec;}
+.num2 section.content a.button{background-color: #d34418;color: #fefefe;}
+.num2 section.content a.button:hover{background-color: #d38f59;}
+
+
+.list_num3{background-color: #eeedee;}
+.num3 section.content h2{color: #1d1d1d;}
+.num3 section.content h3{color: #4a3535;}
+.num3 section.content p{color: #1c1c1c;}
+.num3 section.content a{color: #1c1c1c;}
+.num3 section.content a:hover{color: #3bbeec;}
+.num3 section.content a.button{background-color: #4f7c42;color: #fefefe;}
+.num3 section.content a.button:hover{background-color: #23301e;}
+
+
+.list_num4{background-color: #bfa375;}
+.num4 section.content h2{color: #fff;}
+.num4 section.content h3{color: #fff;}
+.num4 section.content p{color: #fff;}
+.num4 section.content a{color: #fff;}
+.num4 section.content a:hover{color: #3bbeec;}
+.num4 section.content a.button{background-color: #507fb4;color: #fefefe;}
+.num4 section.content a.button:hover{background-color: #0c95ff;}
+
+
+.list_num5{background-color: #cee2ef;}
+.num5 section.content h2{color: #1d1d1d;}
+.num5 section.content h3{color: #4a3535;}
+.num5 section.content p{color: #1c1c1c;}
+.num5 section.content a{color: #1c1c1c;}
+.num5 section.content a:hover{color: #3bbeec;}
+.num5 section.content a.button{background-color: #de9014;color: #fefefe;}
+.num5 section.content a.button:hover{background-color: #674e28;}
+
+
+.list_num6{background-color: #19506f;}
+.num6 section.content h2{color: #eaf0f8;}
+.num6 section.content h3{color: #c1cbda;}
+.num6 section.content p{color: #9fb5d7;}
+.num6 section.content a{color: #fff;}
+.num6 section.content a:hover{color: #3bbeec;}
+.num6 section.content a.button{background-color: #5d9f49;color: #fefefe;}
+.num6 section.content a.button:hover{background-color: #3b702a;}
+
+
+
+
+
 
 /* Blog */
 .post{border-bottom:1px solid #eaeaea}
