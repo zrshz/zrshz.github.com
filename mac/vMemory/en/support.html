@@ -9,7 +9,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8" />
-	<title>ToShowDesktop</title>
+	<title>vMemory Support</title>
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
@@ -81,9 +81,9 @@
         <div id="inheader">
         	<div class="container">
                 <ul id="apptopnav" class="tm-menu">
-                    <li class="current"><a href="index.html">ホームページ</a></li>
-                    <li><a href="help.html">助け</a></li>
-                    <li><a href="support.html">フィードバック</a></li>
+                    <li><a href="index.html">main</a></li>
+                    <li><a href="help.html">help</a></li>
+                    <li class="current"><a href="support.html">support</a></li>
                 </ul>
             </div>
             <!--</div>-->
@@ -92,7 +92,7 @@
         
         <!-- beta -->
         <div id="betainfo">
-        <a href="https://itunes.apple.com/jp/app/toshowdesktop/id633131629">app store<br/></a>
+        <a href="http://itunes.apple.com/us/app/vmemory/id846549676">app store<br/></a>
         </div>
         <!-- end beta -->
         
@@ -100,78 +100,16 @@
         <!-- app info -->
         <div id="maininfo">
         	<div class="container">
-		        <header>
-		        	<img src="../image/icon@2x.png" width="160" alt="[appIcon]"/>
-		        	<h1>ToShowDesktop</h1>
-		        	<p>バージョン 1.2.0 <time datetime="">(2013-11-28)</time></p>
-	        		<div><a class="appstore_ja" href="http://appstore.com/mac/toshowdesktop"></a></div>
-		        </header>
-		        
 		        <main>		        
-		        	<section id="latest">
-			        	<h2>情報</h2>
-		        		<dl>
-		        		<div>
-		        			<dt>カテゴリ</dt>
-		        			<dd>ライフスタイル</dd>
-		        		</div>
-		        		<div>
-		        			<dt>サイズ</dt>
-		        			<dd>1.9 MB</dd>
-		        		</div>
-		        		<div>
-		        			<dt>互換性</dt>
-		        			<dd>Mac OS X 10.7 以降</dd>
-		        		</div>
-		        		<div>	
-		        			<dt>言語</dt>
-		        			<dd><a href="../en/index.html" hreflang="en">英語</a></dd>
-		        			<dd><a href="../zh/index.html" hreflang="zh-Hans">簡体字中国語</a></dd>
-		        			<dd><a href="../zh-Hant/index.html" hreflang="zh-Hant">繁体字中国語</a></dd>
-		        			<dd><a href="../ja/index.html" hreflang="ja">日本語</a></dd>
-		        		</div>
-		        		</dl>
-		        	</section>
-		        	
-		        	<section id="screenshot">
-		        			<h2>スクリーンショット </h2>
-		        			<img src="../image/screenshot.jpg" srcset="../image/screenshot@2x.jpg 2x" width="430" alt="[screenshot]"/>
-		        		</section>
-		        	
-		        	<section id="features">
-		        		<h2>機能</h2>
-		        		<p>ToShowDesktop とは、速くデスクトップを表するため使用したアプリケーションです:</p>
-
-	        			<div>1. ショーデスクトップとは、速くデスクトップを表するため使用したアプリケーションです。</div>
-	        			<div>2. ステータスバーアイコンの変更。</div>
-	        			<div>3. Dockのアイコンを非表示。</div>
-	        			<div>4. ブートの時に自動的にアクセスする。</div>
-	        			<div>5. グローバルショートカットのサポート。</div>
-	        			<div>6. より多くの言語をサポートしています。</div>
-		        			
-		        	</section>
-		        	
-		        	
-		        	<section id="update">
-		        		<section>
-		        			<h2>更新</h2>
-		        			<h3>* 2013.11.28 - バージョン 1.2.0 更新</h3>
-		        			<div>1. より合理的なソフトウェア·アーキテクチャ再建する。</div>
-		        			<div>2. より多くのフィードバックを追加する。</div>
-		        			<div>3. ステータスバーアイコンの変更。</div>
-		        			<div>4. より多くの言語をサポートしています。</div>
-		        			
-		        			<h3>* 2013.05.22 - バージョン 1.1.0 更新</h3>
-		        			<div>1. Dockのアイコンを非表示。</div>
-		        			
-		        			<h3>* 2013.04.24 - バージョン 1.0.0 リリース</h3>
-		        			<div>1. ショーデスクトップとは、速くデスクトップを表するため使用したアプリケーションです。</div>
-		        			<div>2. ステータスバーアイコンの変更。</div>
-		        			<div>3. ブートの時に自動的にアクセスする。</div>
-		        			<div>4. グローバルショートカットのサポート。</div>
-		        		</section>
-		        	</section>
-		        	
+		        	<div id="support">
+			        	<h1>FAQ</h1>
+						<div class="empty"><dt>If you have any question, please contact me.</dt></div>
+					</div>
+		        		
+		        		
+					<!-- 根据不同的浏览器语言，加载不同的评论控件 -->
+					<div id="customcomment"></div>
+						<!-- end 根据不同的浏览器语言，加载不同的评论控件 -->
 		      
 		        </main>
 		        
@@ -193,7 +131,7 @@
                         <li><a title="Sina Weibo" href="http://service.weibo.com/share/share.php?url=http://zrshz.github.com&title=tmyam&nbsp;website"><span class="social-sina_weibo icon-img"></span></a></li>
                         <li><a title="Tencent Weibo" href="http://v.t.qq.com/share/share.php?title=tmyam&nbsp;website&url=http://zrshz.github.com"><span class="social-tencent_weibo icon-img"></span></a></li>
                     </ul>
-                    <address class="addr">Have a good life every day!</address>
+                    <address class="addr">If you have any question , please contact me.</address>
                 </section>
             </div>
             </div>
@@ -227,6 +165,9 @@
 
 <!-- Custom Script -->
 <script type="text/javascript" src="/js/custom.js"></script>
+
+<!-- CustomComment Script -->
+<script type="text/javascript" src="/js/customcomment.js"></script>
 
 
 <div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
