@@ -45,6 +45,10 @@
 	================================================== -->
     <link id="layoutcss" href="/styles/fixed-layout.css" rel="stylesheet" type="text/css" />
 
+	<!-- 图片轮播
+	================================================== -->
+	<link rel="stylesheet" href="/styles/flickity-docs.css" media="screen">
+	
 </head>
 
 
@@ -132,7 +136,28 @@
 		        	
 		        	<section id="screenshot">
 		        			<h2>screenshot</h2>
-		        			<img src="../image/screenshot.jpg" srcset="../image/screenshot@2x.jpg 2x" width="880" alt="[screenshot]"/>
+		        			
+		        			<div class="hero-gallery js-flickity" data-js-module="hero-gallery">
+		        			
+		        				<div class="hero-gallery__cell hero-gallery__cell--1">
+		        					<div class="hero-gallery__cell__content">
+		        						<img src="../image/screenshot1@2x.jpg"  alt="[screenshot]"/>
+		        					</div>
+		        				</div>
+		        				
+		        				<div class="hero-gallery__cell hero-gallery__cell--2">
+		        					<div class="hero-gallery__cell__content">
+		        						<img src="../image/screenshot2@2x.jpg" alt="[screenshot]"/>
+		        					</div>
+		        				</div>
+		        				
+		        				<div class="hero-gallery__cell hero-gallery__cell--3">
+		        					<div class="hero-gallery__cell__content">
+		        						<img src="../image/screenshot3@2x.jpg" alt="[screenshot]"/>
+		        					</div>
+		        				</div>
+		        			</div>
+		        			
 		        		</section>
 		        	
 		        	<section id="features">
@@ -227,6 +252,8 @@
 <!-- Custom Script -->
 <script type="text/javascript" src="/js/custom.js"></script>
 
+<!-- 图片轮播 -->
+<script type="text/javascript" src="/js/flickity-docs.min.js"></script>
 
 <div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
