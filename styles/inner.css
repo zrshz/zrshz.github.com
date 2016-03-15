@@ -249,11 +249,11 @@ USE THIS STYLE SHEET FOR INNER PAGE
 /*======= list column =======*/
 
 section .media{
-	width: 320px;
+	width: 280px;
 }
 
 section .content{
-	width: 580px;
+	max-width: 560px;
 }
 
 section .left{
@@ -324,7 +324,7 @@ section.num6
 {
 	height: auto;
 	display: inline-block;
-	padding: 4em 0;
+	padding: 4em 2em;
 }
 
 .num1 section.content h2,

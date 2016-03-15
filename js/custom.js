@@ -89,7 +89,7 @@ if (document.body.clientWidth <= 320 ){
 	window_w = document.body.clientWidth - 35; //小屏幕，减少点
 }
 
-//alert(window_w);
+//alert(document.body.clientWidth);
 
 if (w >= window_w)
 {
