@@ -1698,6 +1698,61 @@ td.event-table__time {
   color: #444;
 }
 
+
+/********************************************************
+新增的ios适配显示，适用于ios的app应用截图展示
+*********************************************************/
+
+.hero-gallery__ios {
+  margin-bottom: 80px;
+  background: #C0C0C0;
+  background-size: cover;
+}
+
+.hero-gallery__ios__cell__content {
+  padding: 0px 10px 0;
+  margin: 0 auto;
+  position: relative;
+  
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+
+@media screen and ( max-width: 540px ) {
+
+.hero-gallery__ios {
+  max-width: 400px;
+}
+
+.hero-gallery__ios__cell{
+  width: 100%;
+  color: white;
+  /*background: #7FA955;*/
+}
+
+.hero-gallery__ios__cell__content img {
+  max-width: 280px;
+}
+}
+
+
+@media screen and ( min-width: 540px ) {
+
+.hero-gallery__ios {
+  max-width: 790px;
+}
+
+.hero-gallery__ios__cell__content img {
+  max-width: 375px;
+}
+}
+/**************************************************************/
+
+
+
+
+
+
 .hero-illustration {
   display: block;
   width: 100%;
