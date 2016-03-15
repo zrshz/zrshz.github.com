@@ -73,3 +73,39 @@ jQuery(function ($) {
 		});
 	}
 });
+
+
+/* 自适应图片显示，根据屏幕尺寸动态改变显示大小 
+
+<img src="../image/screenshot.jpg" srcset="../image/screenshot@2x.jpg 2x" width="430"  onload="javascript:drawImage(this)" />
+
+*/
+function drawImage(image){ //参数(图片) 
+
+var w = image.width;
+var window_w = document.body.clientWidth - 60;
+if (document.body.clientWidth <= 320 ){
+
+	window_w = document.body.clientWidth - 35; //小屏幕，减少点
+}
+
+//alert(window_w);
+
+if (w >= window_w)
+{
+	image.width = window_w;
+}
+	window.onresize = function change_image_size() {
+	
+	  	window_w = document.body.clientWidth - 60;
+	  	if (document.body.clientWidth <= 320 ){
+	  	
+	  		window_w = document.body.clientWidth - 35; //小屏幕，减少点
+	  	}
+		 if (w >= window_w)
+	 	{
+	 		image.width = window_w;
+	 	}
+	 
+	}
+}

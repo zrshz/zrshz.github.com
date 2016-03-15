@@ -13,12 +13,12 @@
 	font-size: 16px;
 }
 
-#maininfo .container {
-	margin-left: 30px;
-}
+/*#maininfo .container {
+	margin-left: 20px;
+}*/
 
 #maininfo .container > header{
-	width: 400px;
+	width: 300px;
 	text-align: center;
 }
 
@@ -42,7 +42,7 @@ main > section {
 main > section::before {
 	content: '';
 	display: block;
-	width:480px;
+	width:100%;
 	/*margin: 20px auto;*/
 	border-bottom: 1px solid hsla(0,0%,0%,.1);
 }
@@ -87,7 +87,6 @@ main h2 {
 #latest dl div dd+dt::before {
 	content: "\a";
 }
-
 
 
 /* features */
@@ -135,7 +134,7 @@ main h2 {
 #support div::before {
 	content: '';
 	display: block;
-	width:480px;
+	width:300px;
 	margin-bottom: 20px;
 	border-bottom: 1px solid hsla(0,0%,0%,.1);
 }
@@ -189,38 +188,42 @@ main h2 {
 .appstore_en{
 	display:inline-block;
 	overflow:hidden;
-	background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_macappstore-lrg.png) no-repeat;
+	/*background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_macappstore-lrg.png) no-repeat;*/
+	background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_macappstore-lrg.svg) no-repeat;
 	width:165px;
 	height:40px;
-	@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_macappstore-lrg.svg);}
+	/*@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_macappstore-lrg.svg);}*/
 }
 
 .appstore_zh{
 	display:inline-block;
 	overflow:hidden;
-	background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/zh_cn//images/web/linkmaker/badge_macappstore-lrg.png) no-repeat;
+	/*background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/zh_cn//images/web/linkmaker/badge_macappstore-lrg.png) no-repeat;*/
+	background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/zh_cn//images/web/linkmaker/badge_macappstore-lrg.svg) no-repeat;
 	width:165px;
 	height:40px;
-	@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/zh_cn//images/web/linkmaker/badge_macappstore-lrg.svg);}
+	/*@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/zh_cn//images/web/linkmaker/badge_macappstore-lrg.svg);}*/
 }
 
 .appstore_ja{
 	display:inline-block;
 	overflow:hidden;
-	background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_macappstore-lrg.png) no-repeat;
+	/*background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_macappstore-lrg.png) no-repeat;*/
+	background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_macappstore-lrg.svg) no-repeat;
 	width:165px;
 	height:40px;
-	@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_macappstore-lrg.svg);}
+	/*@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/ja_jp//images/web/linkmaker/badge_macappstore-lrg.svg);}*/
 }
 
 
 .appstore_short{
 	display:inline-block;
 	overflow:hidden;
-	background:url(https://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_macappstore-sm.png) no-repeat;
+	/*background:url(https://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_macappstore-sm.png) no-repeat;*/
+	background:url(https://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_macappstore-sm.svg) no-repeat;
 	width:81px;
 	height:15px;
-	@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_macappstore-sm.svg);}
+	/*@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets//images/web/linkmaker/badge_macappstore-sm.svg);}*/
 }
 
 
@@ -267,10 +270,10 @@ main h2 {
 
 /* beta */
 #betainfo{
-	margin-top: -70px;
+	margin-top: -80px;
 	position: absolute;
 	clip:rect(0px,400px,300px,0px);
-	width: 400px;
+	width: 300px;
 }
 
 #betainfo a {

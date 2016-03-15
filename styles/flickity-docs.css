@@ -1758,19 +1758,47 @@ td.event-table__time {
   color: #444;
 }
 
-@media screen and ( max-width: 500px ) {
+
+@media screen and ( max-width: 375px ) {
+
+.hero-gallery__cell {
+  height: 160px;
+}
+}
+
+
+@media screen and ( min-width: 375px ) {
   /* hide first cell content on small devices */
   .hero-gallery h1,
   .hero-gallery .tagline {
     display: none;
   }
 
+.hero-gallery__cell {
+  	height: 160px;
 }
+}
+
+/*@media screen and ( max-width: 500px ) {
+  /* hide first cell content on small devices *!/
+  .hero-gallery h1,
+  .hero-gallery .tagline {
+    display: none;
+  }
+
+.hero-gallery__cell {
+  	height: 160px;
+}
+}*/
 
 @media screen and ( min-width: 500px ) {
 /*  .hero-gallery__cell--1  .hero-gallery__cell__content {
     padding-right: 260px;
   }*/
+  
+.hero-gallery__cell {
+  height: 240px;
+}
 
   .hero-illustration {
     position: absolute;

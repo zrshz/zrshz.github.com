@@ -274,8 +274,8 @@ code {
 #inheader{
 	margin-top: -40px;
 	position: relative;
+	top:20px;
 }
-
 
 /* CONTENT */
 #outermain{padding:50px 0 50px 0;}
@@ -450,8 +450,8 @@ ul.sf-menu li li li.sfHover ul {
 
 
 #apptopnav{
-	margin:0;
-	padding:0;
+	margin:0px;
+	padding:0px;
 	list-style-type:none;
 	overflow:visible;
 	position:relative;
@@ -466,7 +466,7 @@ ul.sf-menu li li li.sfHover ul {
 	font-size:16px;
 }
 .tm-menu > li {
-    padding-left: 2px;
+    padding-left: 4px;
     position: relative;
     z-index: 10;
     float: left;
