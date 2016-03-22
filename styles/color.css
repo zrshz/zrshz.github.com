@@ -152,9 +152,9 @@ hr {
 
 
 .list_num6{background-color: #19506f;}
-.num6 section.content h2{color: #eaf0f8;}
-.num6 section.content h3{color: #c1cbda;}
-.num6 section.content p{color: #9fb5d7;}
+.num6 section.content h2{color: #eee;}
+.num6 section.content h3{color: #eee;}
+.num6 section.content p{color: #eee;}
 .num6 section.content a{color: #fff;}
 .num6 section.content a:hover{color: #3bbeec;}
 .num6 section.content a.button{background-color: #5d9f49;color: #fefefe;}
